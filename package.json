@@ -7,7 +7,7 @@
     "test": "jest",
     "test:cobertura": "jest --coverage",
     "test:vigilar": "jest --watchAll",
-    "dev": "nodemon Punto2/app"
+    "dev": "nodemon Punto3/app"
   },
   "keywords": [],
   "author": "",
