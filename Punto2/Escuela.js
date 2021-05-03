@@ -1,10 +1,12 @@
+const Direccion = require("./Direccion");
+
 class Escuela {
     constructor(nombre, direccion, cantidadAulas, codigo, cursos){
-        this.nombre = nombre;
-        this.direccion = direccion;
-        this.cantidadAulas = cantidadAulas;
-        this.codigo = codigo;
-        this.cursos = cursos;
+        this.nombre = nombre || "Sin nombre";
+        this.direccion = direccion || new Direccion();
+        this.cantidadAulas = cantidadAulas || 0;
+        this.codigo = codigo || "Sin codigo";
+        this.cursos = cursos || [];
     }
 
     verInfoEscuela(){
