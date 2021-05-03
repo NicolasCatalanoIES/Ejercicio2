@@ -1,12 +1,7 @@
 # Ejercicios de clases y objetos
 
-<<<<<<< HEAD
 ### Punto 1
 > #### Crear una clase de Auto con los atributos (marca, modelo, potencia, max. velocidad)
-=======
-###Punto 1
-> ####Crear una clase de Auto con los atributos (marca, modelo, potencia, max. velocidad)
->>>>>>> 0059838e38c0847449b031272dbb6fd446451290
 - Crear 5 autos - en un array
 - Iterar el array y mostrar los autos por pantalla
 - Iteramos los autos y calculamos con un método (calcular tiempo) cuanto tarda en forma óptima en recorrer x kms
